@@ -23,6 +23,8 @@
 #include "ProgressOutput.h"
 #include "common.h"
 
+float ProgressOutput::NoAvgWeight = -1.0 ;
+
 ProgressOutput::ProgressOutput ()
 	: Message("__nomessage__")
 {

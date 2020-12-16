@@ -28,6 +28,8 @@
 #include "error.h"
 #include "msg.h"
 
+float Arguments::Default_Goal = 100.0 ;
+
 // the global Arguments object
 Arguments Args ;
 

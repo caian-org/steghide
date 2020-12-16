@@ -62,9 +62,9 @@ class ProgressOutput {
 	 * \param rate the rate of matched vertices
 	 * \param avgweight the average edge weight (is not printed if not given)
 	 **/
-	void done (float rate, float avgweight = NoAvgWeight) const ;
+	void done (float rate, float avgweight = 1.0) const ;
 
-	static const float NoAvgWeight = -1.0 ;
+	static float NoAvgWeight ;
 
 	protected:
 	std::string vcompose (const char *msgfmt, va_list ap) const ;
